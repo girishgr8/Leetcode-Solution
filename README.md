@@ -1,1 +1,1 @@
-**Leetcode Solutins**
+**Leetcode Solutions**
