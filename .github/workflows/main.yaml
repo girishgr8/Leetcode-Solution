@@ -1,0 +1,36 @@
+name: Leetcode solutions using MkDocs
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the main branch
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        name: Leetcode solutions
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Main
+              uses: actions/checkout@v2
+
+            - name: Set up Python 3.7
+              uses: actions/setup-python@v2
+              with:
+                  python-version: "3.7"
+
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install mkdocs-material
+                  pip install mkdocs-material-extensions
+                  pip install Pygments
+                  pip install pymdown-extensions
+
+            - name: Deploy
+              run: |
+                  git pull
+                  cd leetcode-solutions
+                  mkdocs gh-deploy --force
