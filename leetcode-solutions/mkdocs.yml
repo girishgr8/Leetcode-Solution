@@ -10,6 +10,7 @@ nav:
           - "2. Add Two Numbers": problems/2-add-two-numbers.md
           - "21. Merge Two Sorted Lists": problems/21-merge-two-sorted-lists.md
           - "34. Find First and Last Position of Element in Sorted Array": problems/34-find-first-and-last-position-of-element-in-sorted-array.md
+          - "51. N-Queens": problems/51-n-queens.md
           - "62. Unique Paths": problems/62-unique-paths.md
           - "73. Set Matrix Zeroes": problems/73-set-matrix-zeroes.md
           - "89. Gray Code": problems/89-gray-code.md
@@ -20,6 +21,8 @@ nav:
           - "344. Reverse String": problems/344-reverse-string.md
           - "347. Top K Frequent Elements": problems/347-top-k-frequent-elements.md
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
+          - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
+          - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
