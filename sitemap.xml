@@ -16,12 +16,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/1222-queens-that-can-attack-the-king/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/1351-count-negative-numbers-in-a-sorted-matrix/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/153-find-minimum-in-rotated-sorted-array/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/1539-kth-missing-positive-number/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -46,12 +56,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/200-number-of-islands/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/203-remove-linked-list-elements/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/2053-kth-distinct-string-in-an-array/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/206-reverse-linked-list/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/2085-count-common-words-with-one-occurrence/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -67,6 +92,11 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/2130-maximum-twin-sum-of-a-linked-list/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/216-combination-sum-iii/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -91,6 +121,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/349-intersection-of-two-arrays/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/35-search-insert-position/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/51-n-queens/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
@@ -106,7 +146,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/682-baseball-game/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/692-top-k-frequent-words/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/695-max-area-of-island/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -117,6 +167,11 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/73-set-matrix-zeroes/</loc>
+         <lastmod>2022-04-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/74-search-a-2d-matrix/</loc>
          <lastmod>2022-04-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
