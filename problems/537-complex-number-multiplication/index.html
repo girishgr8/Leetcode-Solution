@@ -12,14 +12,14 @@
         <meta name="author" content="Girish Thatte">
       
       
-        <link rel="canonical" href="https://girishgr8.github.io/problems/896-middle-of-the-linked-list/">
+        <link rel="canonical" href="https://girishgr8.github.io/problems/537-complex-number-multiplication/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
     
     
       
-        <title>876. Middle of the Linked List - Leetcode</title>
+        <title>537. Complex Number Multiplication - Leetcode</title>
       
     
     
@@ -99,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              876. Middle of the Linked List
+              537. Complex Number Multiplication
             
           </span>
         </div>
@@ -424,11 +424,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../537-complex-number-multiplication/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         537. Complex Number Multiplication
       </a>
+      
     </li>
   
 
@@ -480,19 +488,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../896-middle-of-the-linked-list/" class="md-nav__link">
         876. Middle of the Linked List
       </a>
-      
     </li>
   
 
@@ -606,14 +606,20 @@
   <nav class="md-tags" >
     
       
-        <a href="../../tags/#linked-list" class="md-tag">
-          Linked List
+        <a href="../../tags/#math" class="md-tag">
+          Math
         </a>
       
     
       
-        <a href="../../tags/#two-pointers" class="md-tag">
-          Two pointers
+        <a href="../../tags/#string" class="md-tag">
+          String
+        </a>
+      
+    
+      
+        <a href="../../tags/#simulation" class="md-tag">
+          Simulation
         </a>
       
     
@@ -621,41 +627,45 @@
 
 
 
-  <h1>876. Middle of the Linked List</h1>
+  <h1>537. Complex Number Multiplication</h1>
 
 <p><strong>Leetcode Problem Link :</strong></p>
-<p><a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank">https://leetcode.com/problems/middle-of-the-linked-list/</a></p>
-<p><strong>Approach 1 : Two pointers Approach <img alt="🙂" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f642.svg" title=":slight_smile:" /></strong></p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Java</label></div>
+<p><a href="https://leetcode.com/problems/complex-number-multiplication/" target="_blank">https://leetcode.com/problems/complex-number-multiplication/</a></p>
+<p><strong>Approach : Formula Simulation <img alt="😄" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f604.svg" title=":smile:" /></strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Java</label><label for="__tabbed_1_2">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="cm">/**</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos=" 2 "></span></a><span class="cm">* Definition for singly-linked list.</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos=" 3 "></span></a><span class="cm">* public class ListNode {</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="cm">*     int val;</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos=" 5 "></span></a><span class="cm">*     ListNode next;</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a><a href="#__codelineno-0-6"><span class="linenos" data-linenos=" 6 "></span></a><span class="cm">*     ListNode() {}</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a><a href="#__codelineno-0-7"><span class="linenos" data-linenos=" 7 "></span></a><span class="cm">*     ListNode(int val) { this.val = val; }</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><a href="#__codelineno-0-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="cm">*     ListNode(int val, ListNode next) { this.val = val; this.next = next; }</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a><a href="#__codelineno-0-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="cm">* }</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a><a href="#__codelineno-0-10"><span class="linenos" data-linenos="10 "></span></a><span class="cm">*/</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><a href="#__codelineno-0-11"><span class="linenos" data-linenos="11 "></span></a><span class="kd">class</span> <span class="nc">Solution</span> <span class="p">{</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a><a href="#__codelineno-0-12"><span class="linenos" data-linenos="12 "></span></a>    <span class="kd">public</span> <span class="n">ListNode</span> <span class="nf">middleNode</span><span class="p">(</span><span class="n">ListNode</span> <span class="n">head</span><span class="p">)</span> <span class="p">{</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><a href="#__codelineno-0-13"><span class="linenos" data-linenos="13 "></span></a>        <span class="n">ListNode</span> <span class="n">slow</span> <span class="o">=</span> <span class="n">head</span><span class="p">,</span> <span class="n">fast</span> <span class="o">=</span> <span class="n">head</span><span class="p">;</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a><a href="#__codelineno-0-14"><span class="linenos" data-linenos="14 "></span></a>        <span class="k">while</span><span class="p">(</span><span class="n">fast</span> <span class="o">!=</span> <span class="kc">null</span> <span class="o">&amp;&amp;</span> <span class="n">fast</span><span class="p">.</span><span class="na">next</span> <span class="o">!=</span> <span class="kc">null</span><span class="p">){</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15"></a><a href="#__codelineno-0-15"><span class="linenos" data-linenos="15 "></span></a>            <span class="n">fast</span> <span class="o">=</span> <span class="n">fast</span><span class="p">.</span><span class="na">next</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16"></a><a href="#__codelineno-0-16"><span class="linenos" data-linenos="16 "></span></a>            <span class="n">slow</span> <span class="o">=</span> <span class="n">slow</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17"></a><a href="#__codelineno-0-17"><span class="linenos" data-linenos="17 "></span></a>        <span class="p">}</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18"></a><a href="#__codelineno-0-18"><span class="linenos" data-linenos="18 "></span></a>        <span class="k">return</span> <span class="n">slow</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="kd">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos=" 2 "></span></a>    <span class="kd">public</span> <span class="n">String</span> <span class="nf">complexNumberMultiply</span><span class="p">(</span><span class="n">String</span> <span class="n">num1</span><span class="p">,</span> <span class="n">String</span> <span class="n">num2</span><span class="p">)</span> <span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos=" 3 "></span></a>        <span class="c1">// e.g. nums1 = 1+1i,  nums2 = 1+-1i</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos=" 4 "></span></a>        <span class="c1">// n1 = [&quot;1&quot;, &quot;1i&quot;],   n2 = [&quot;1&quot;, &quot;-1i&quot;]</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos=" 5 "></span></a>        <span class="n">String</span><span class="o">[]</span> <span class="n">n1</span> <span class="o">=</span> <span class="n">num1</span><span class="p">.</span><span class="na">split</span><span class="p">(</span><span class="s">&quot;\\+&quot;</span><span class="p">);</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a><a href="#__codelineno-0-6"><span class="linenos" data-linenos=" 6 "></span></a>        <span class="n">String</span><span class="o">[]</span> <span class="n">n2</span> <span class="o">=</span> <span class="n">num2</span><span class="p">.</span><span class="na">split</span><span class="p">(</span><span class="s">&quot;\\+&quot;</span><span class="p">);</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><a href="#__codelineno-0-7"><span class="linenos" data-linenos=" 7 "></span></a>        <span class="c1">// r1 = 1, r2 = 1</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><a href="#__codelineno-0-8"><span class="linenos" data-linenos=" 8 "></span></a>        <span class="c1">// c1 = 1, c2 = -1</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><a href="#__codelineno-0-9"><span class="linenos" data-linenos=" 9 "></span></a>        <span class="c1">// for c1, c2 ==&gt; take 2nd part of splitted string from 0th index to second last index</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a><a href="#__codelineno-0-10"><span class="linenos" data-linenos="10 "></span></a>        <span class="c1">// this will exclude &#39;i&#39; from the splitted string to get actual complex part</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><a href="#__codelineno-0-11"><span class="linenos" data-linenos="11 "></span></a>        <span class="kt">int</span> <span class="n">r1</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">n1</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">);</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a><a href="#__codelineno-0-12"><span class="linenos" data-linenos="12 "></span></a>        <span class="kt">int</span> <span class="n">r2</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">n2</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">);</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><a href="#__codelineno-0-13"><span class="linenos" data-linenos="13 "></span></a>        <span class="kt">int</span> <span class="n">c1</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">n1</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">.</span><span class="na">substring</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n1</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">.</span><span class="na">length</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">));</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a><a href="#__codelineno-0-14"><span class="linenos" data-linenos="14 "></span></a>        <span class="kt">int</span> <span class="n">c2</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">parseInt</span><span class="p">(</span><span class="n">n2</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">.</span><span class="na">substring</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n2</span><span class="o">[</span><span class="mi">1</span><span class="o">]</span><span class="p">.</span><span class="na">length</span><span class="p">()</span><span class="o">-</span><span class="mi">1</span><span class="p">));</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a><a href="#__codelineno-0-15"><span class="linenos" data-linenos="15 "></span></a>        <span class="kt">int</span> <span class="n">real</span> <span class="o">=</span> <span class="n">r1</span><span class="o">*</span><span class="n">r2</span> <span class="o">+</span> <span class="p">(</span><span class="n">c1</span><span class="o">*</span><span class="n">c2</span><span class="o">*-</span><span class="mi">1</span><span class="p">);</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a><a href="#__codelineno-0-16"><span class="linenos" data-linenos="16 "></span></a>        <span class="kt">int</span> <span class="n">complex</span> <span class="o">=</span> <span class="n">r1</span><span class="o">*</span><span class="n">c2</span> <span class="o">+</span> <span class="n">r2</span><span class="o">*</span><span class="n">c1</span><span class="p">;</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a><a href="#__codelineno-0-17"><span class="linenos" data-linenos="17 "></span></a>        <span class="n">String</span> <span class="n">result</span> <span class="o">=</span> <span class="n">Integer</span><span class="p">.</span><span class="na">toString</span><span class="p">(</span><span class="n">real</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;+&quot;</span> <span class="o">+</span> <span class="n">Integer</span><span class="p">.</span><span class="na">toString</span><span class="p">(</span><span class="n">complex</span><span class="p">)</span> <span class="o">+</span> <span class="s">&quot;i&quot;</span><span class="p">;</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a><a href="#__codelineno-0-18"><span class="linenos" data-linenos="18 "></span></a>        <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
 <a id="__codelineno-0-19" name="__codelineno-0-19"></a><a href="#__codelineno-0-19"><span class="linenos" data-linenos="19 "></span></a>    <span class="p">}</span>
 <a id="__codelineno-0-20" name="__codelineno-0-20"></a><a href="#__codelineno-0-20"><span class="linenos" data-linenos="20 "></span></a><span class="p">}</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a>
 </code></pre></div>
 </div>
 </div>
 </div>
 <ul class="task-list">
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Time Complexity :</strong> O(n) where <em>n</em> is the number of nodes in linked list</p>
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Time Complexity :</strong> O(1)</p>
 </li>
 <li class="task-list-item">
 <p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Space Complexity :</strong> O(1)</p>
@@ -674,7 +684,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../797-all-paths-from-source-to-target/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 797. All Paths From Source to Target" rel="prev">
+        <a href="../347-top-k-frequent-elements/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 347. Top K Frequent Elements" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -683,20 +693,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              797. All Paths From Source to Target
+              347. Top K Frequent Elements
             </div>
           </div>
         </a>
       
       
         
-        <a href="../1351-count-negative-numbers-in-a-sorted-matrix/" class="md-footer__link md-footer__link--next" aria-label="Next: 1351. Count Negative Numbers in a Sorted Matrix" rel="next">
+        <a href="../692-top-k-frequent-words/" class="md-footer__link md-footer__link--next" aria-label="Next: 692. Top K Frequent Words" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              1351. Count Negative Numbers in a Sorted Matrix
+              692. Top K Frequent Words
             </div>
           </div>
           <div class="md-footer__button md-icon">
