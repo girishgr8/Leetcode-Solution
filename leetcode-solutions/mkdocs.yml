@@ -20,6 +20,7 @@ nav:
           - "268. Missing Number": problems/268-missing-number.md
           - "344. Reverse String": problems/344-reverse-string.md
           - "347. Top K Frequent Elements": problems/347-top-k-frequent-elements.md
+          - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
           - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
@@ -27,6 +28,7 @@ nav:
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
           - "1773. Count Items Matching a Rule": problems/1773-count-items-matching-a-rule.md
+          - "1880. Check if Word Equals Summation of Two Words": problems/1880-check-if-word-equals-summation-of-two-words.md
           - "2095. Delete the Middle Node of a Linked List": problems/2095-delete-the-middle-node-of-a-linked-list.md
           - "2130. Maximum Twin Sum of a Linked List": problems/2130-maximum-twin-sum-of-a-linked-list.md
 
