@@ -15,6 +15,7 @@ nav:
           - "62. Unique Paths": problems/62-unique-paths.md
           - "73. Set Matrix Zeroes": problems/73-set-matrix-zeroes.md
           - "74. Search a 2D Matrix": problems/74-search-a-2d-matrix.md
+          - "77. Combinations": problems/77-combinations.md
           - "89. Gray Code": problems/89-gray-code.md
           - "153. Find Minimum in Rotated Sorted Array": problems/153-find-minimum-in-rotated-sorted-array.md
           - "200. Number of Islands": problems/200-number-of-islands.md
