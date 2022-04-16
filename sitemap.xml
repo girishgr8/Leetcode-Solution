@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/100-same-tree/</loc>
+         <lastmod>2022-04-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/1222-queens-that-can-attack-the-king/</loc>
          <lastmod>2022-04-16</lastmod>
          <changefreq>daily</changefreq>
@@ -47,6 +52,11 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/1880-check-if-word-equals-summation-of-two-words/</loc>
+         <lastmod>2022-04-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/1980-find-unique-binary-string/</loc>
          <lastmod>2022-04-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -127,6 +137,16 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/35-search-insert-position/</loc>
+         <lastmod>2022-04-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/40-combination-sum-ii/</loc>
+         <lastmod>2022-04-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/46-permutations/</loc>
          <lastmod>2022-04-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
