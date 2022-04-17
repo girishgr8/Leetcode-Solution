@@ -5,13 +5,21 @@ site_url: https://girishgr8.github.io
 
 nav:
     - Introduction: index.md
-    - Problems:
+    - Standard Problems:
+          - Dynamic Programming:
+                - "1. 0/1 Knapsack": dp/01knapsack.md
+                - "2. Longest Common Subsequence(LCS)": dp/lcs.md
+                - "3. Coin Change - minimum number of coins to make the change": dp/mincoinchange.md
+
+    - Leetcode Problems:
           - "1. Two Sum": problems/1-two-sum.md
           - "2. Add Two Numbers": problems/2-add-two-numbers.md
+          - "11. Container With Most Water": problems/11-container-with-most-water.md
           - "21. Merge Two Sorted Lists": problems/21-merge-two-sorted-lists.md
           - "34. Find First and Last Position of Element in Sorted Array": problems/34-find-first-and-last-position-of-element-in-sorted-array.md
           - "35. Search Insert Position": problems/35-search-insert-position.md
           - "40. Combination Sum II": problems/40-combination-sum-ii.md
+          - "42. Trapping Rain Water": problems/42-trapping-rain-water.md
           - "46. Permutations": problems/46-permutations.md
           - "51. N-Queens": problems/51-n-queens.md
           - "62. Unique Paths": problems/62-unique-paths.md
@@ -30,12 +38,14 @@ nav:
           - "347. Top K Frequent Elements": problems/347-top-k-frequent-elements.md
           - "349. Intersection of Two Arrays": problems/349-intersection-of-two-arrays.md
           - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
+          - "609. Find Duplicate File in System": problems/609-find-duplicate-file-in-system.md
           - "682. Baseball Game": problems/682-baseball-game.md
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
           - "695. Max Area of Island": problems/695-max-area-of-island.md
           - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
+          - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
