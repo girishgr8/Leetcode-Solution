@@ -42,7 +42,9 @@ nav:
           - "344. Reverse String": problems/344-reverse-string.md
           - "347. Top K Frequent Elements": problems/347-top-k-frequent-elements.md
           - "349. Intersection of Two Arrays": problems/349-intersection-of-two-arrays.md
+          - "392. Is Subsequence": problems/392-is-subsequence.md
           - "516. Longest Palindromic Subsequence": problems/516-longest-palindromic-subsequence.md
+          - "513. Find Bottom Left Tree Value": problems/513-find-bottom-left-tree-value.md
           - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
           - "594. Longest Harmonious Subsequence": problems/594-longest-harmonious-subsequence.md
           - "609. Find Duplicate File in System": problems/609-find-duplicate-file-in-system.md
@@ -50,9 +52,11 @@ nav:
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
           - "695. Max Area of Island": problems/695-max-area-of-island.md
           - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
+          - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
           - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
+          - "967. Numbers With Same Consecutive Differences": problems/967-numbers-with-same-consecutive-differences.md
           - "1143. Longest Common Subsequence": problems/1143-longest-common-subsequence.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md

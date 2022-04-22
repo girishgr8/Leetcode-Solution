@@ -66,7 +66,23 @@
                     dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
                 }
             }
-            System.out.println("Length of LCS = " + dp[m][n]);
+            int lcs = dp[m][n];
+            System.out.println("Length of LCS : " + dp[m][n]);
+
+            char[] str = new char[lcs];
+            int i = m, j = n;
+            while(i > 0 && j > 0){
+                if(dp[i-1][j] == dp[i][j])
+                    i--;
+                else if(dp[i][j-1] == dp[i][j])
+                    j--;
+                else{
+                    str[--lcs] = s1.charAt(i-1);
+                    i--;
+                    j--;
+                }
+            }
+            System.out.println("LCS is : " + String.valueOf(str));
         }
     }
     ```
