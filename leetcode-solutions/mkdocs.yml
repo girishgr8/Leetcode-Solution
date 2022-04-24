@@ -8,8 +8,9 @@ nav:
     - Standard Problems:
           - Dynamic Programming:
                 - "0/1 Knapsack": dp/01knapsack.md
-                - "Longest Common Subsequence(LCS)": dp/lcs.md
-                - "Longest Palindromic Subsequence(LPS)": dp/lps.md
+                - "Longest Common Subsequence(LCS)": dp/longestcommonnsubsequence.md
+                - "Longest Common Substring": dp/longestcommonsubstring.md
+                - "Longest Palindromic Subsequence(LPS)": dp/longestpalindromicsubsequence.md
                 - "Coin Change - minimum number of coins to make the change": dp/mincoinchange.md
 
     - Leetcode Problems:
@@ -32,6 +33,7 @@ nav:
           - "77. Combinations": problems/77-combinations.md
           - "89. Gray Code": problems/89-gray-code.md
           - "100. Same Tree": problems/100-same-tree.md
+          - "120. Triangle": problems/120-triangle.md
           - "153. Find Minimum in Rotated Sorted Array": problems/153-find-minimum-in-rotated-sorted-array.md
           - "200. Number of Islands": problems/200-number-of-islands.md
           - "203. Remove Linked List Elements": problems/203-remove-linked-list-elements.md
@@ -47,12 +49,14 @@ nav:
           - "516. Longest Palindromic Subsequence": problems/516-longest-palindromic-subsequence.md
           - "513. Find Bottom Left Tree Value": problems/513-find-bottom-left-tree-value.md
           - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
+          - "566. Reshape the Matrix": problems/566-reshape-the-matrix.md
           - "594. Longest Harmonious Subsequence": problems/594-longest-harmonious-subsequence.md
           - "609. Find Duplicate File in System": problems/609-find-duplicate-file-in-system.md
           - "682. Baseball Game": problems/682-baseball-game.md
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
           - "695. Max Area of Island": problems/695-max-area-of-island.md
           - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
+          - "718. Maximum Length of Repeated Subarray": problems/718-maximum-length-of-repeated-subarray.md
           - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
@@ -62,12 +66,14 @@ nav:
           - "1092. Shortest Common Supersequence": problems/1092-shortest-common-supersequence.md
           - "1143. Longest Common Subsequence": problems/1143-longest-common-subsequence.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
+          - "1289. Minimum Falling Path Sum II": problems/1289-minimum-falling-path-sum-ii.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
           - "1773. Count Items Matching a Rule": problems/1773-count-items-matching-a-rule.md
           - "1880. Check if Word Equals Summation of Two Words": problems/1880-check-if-word-equals-summation-of-two-words.md
           - "1980. Find Unique Binary String": problems/1980-find-unique-binary-string.md
+          - "2022. Convert 1D Array Into 2D Array": problems/2022-convert-1d-array-into-2d-array.md
           - "2053. Kth Distinct String in an Array": problems/2053-kth-distinct-string-in-an-array.md
           - "2085. Count Common Words With One Occurrence": problems/2085-count-common-words-with-one-occurrence.md
           - "2095. Delete the Middle Node of a Linked List": problems/2095-delete-the-middle-node-of-a-linked-list.md
