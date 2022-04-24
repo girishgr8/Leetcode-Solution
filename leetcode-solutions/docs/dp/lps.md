@@ -1,4 +1,4 @@
--   [x] Basically, the idea is to find length of LCS of a string and it's reverse
+-   Basically, the idea is to find length of LCS of a string and it's reverse
 
 **Approach 1 : Recursion :sweat_smile:**
 

@@ -49,6 +49,6 @@ tags:
 
     ```
 
--   [x] **Time Complexity :** O(n) where n = number of nodes in the tree
+-   [x] **Time Complexity :** O(2^n^) where n = number of digits in each combination
 
--   [x] **Space Complexity :** O(n) where n = number of nodes in the tree
+-   [x] **Space Complexity :** O(2^n^) where n = number of digits in each combination

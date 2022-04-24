@@ -10,7 +10,7 @@ tags:
 
 [https://leetcode.com/problems/is-graph-bipartite/](https://leetcode.com/problems/is-graph-bipartite/){:target="\_blank"}
 
-**Approach 1 : DFS :smile:**
+**Approach 1 : BFS :smile:**
 
 === "Java"
 
@@ -18,26 +18,22 @@ tags:
     class Solution {
         public boolean isBipartite(int[][] graph) {
             int V = graph.length;
-            boolean[] visited = new boolean[V];
+            int[] colors = new int[V];
+            Arrays.fill(colors, -1);
             for(int v = 0; v < V; ++v){
-                if(!visited[v] && hasOddLengthCycles(graph, visited, v))
+                if(colors[v] == -1 && !isValidColoring(graph, colors, v))
                     return false;
             }
             return true;
         }
 
-        public boolean hasOddLengthCycles(int[][] graph, boolean[] visited, int src){
-            int V = graph.length;
-            int[] colors = new int[V];
-            Arrays.fill(colors, -1);
-
+        public boolean isValidColoring(int[][] graph, int[] colors, int src){
             Queue<Integer> queue = new LinkedList<Integer>();
             queue.add(src);
             colors[src] = 1;
 
             while(!queue.isEmpty()){
                 int u = queue.poll();
-                visited[u] = true;
                 for(int i = 0; i < graph[u].length; i++){
                     int v = graph[u][i];
                     if(colors[v] == -1){
@@ -45,10 +41,10 @@ tags:
                         queue.add(v);
                     }
                     else if(colors[v] == colors[u])
-                        return true;
+                        return false;
                 }
             }
-            return false;
+            return true;
         }
     }
     ```
@@ -59,6 +55,6 @@ tags:
 
     ```
 
--   [x] **Time Complexity :** O(n) where n = number of nodes in the tree
+-   [x] **Time Complexity :** O(n + e) where n = number of nodes & edges in the graph respectively
 
--   [x] **Space Complexity :** O(n) where n = number of nodes in the tree
+-   [x] **Space Complexity :** O(n) where n = number of nodes in the graph

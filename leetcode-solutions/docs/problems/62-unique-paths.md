@@ -5,16 +5,9 @@ tags:
     - Combinatorics
 ---
 
-**Leetcode Problem Link :** [https://leetcode.com/problems/unique-paths/](https://leetcode.com/problems/unique-paths/){:target="\_blank"}
+**Leetcode Problem Link :**
 
-<img src="https://img.shields.io/badge/-Medium-3CB43C.svg" />
-<img src="https://img.shields.io/badge/-Math-0069ff.svg" />
-<img src="https://img.shields.io/badge/-Dynamic Programming-0069ff.svg" />
-<img src="https://img.shields.io/badge/-Combinatorics-0069ff.svg" />
-
-[Solution Video]()
-
-<hr>
+[https://leetcode.com/problems/unique-paths/](https://leetcode.com/problems/unique-paths/){:target="\_blank"}
 
 **Approach 1 : Brute Force :sweat_smile:**
 
@@ -77,9 +70,9 @@ Here, we store the value for number of unique paths calculated for cell(i, j), s
     }
     ```
 
--   [x] **Time Complexity :** O(2^mn^)
+-   [x] **Time Complexity :** O(m\*n)
 
--   [x] **Space Complexity :** O(max(m,n))
+-   [x] **Space Complexity :** O(m\*n)
 
 <hr>
 
