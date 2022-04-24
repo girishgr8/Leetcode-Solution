@@ -16,12 +16,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://girishgr8.github.io/dp/lcs/</loc>
+         <loc>https://girishgr8.github.io/dp/longestcommonnsubsequence/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://girishgr8.github.io/dp/lps/</loc>
+         <loc>https://girishgr8.github.io/dp/longestcommonsubstring/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/dp/longestpalindromicsubsequence/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -56,7 +61,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/120-triangle/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/1222-queens-that-can-attack-the-king/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/1289-minimum-falling-path-sum-ii/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -102,6 +117,11 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/200-number-of-islands/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/2022-convert-1d-array-into-2d-array/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -236,6 +256,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://girishgr8.github.io/problems/566-reshape-the-matrix/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://girishgr8.github.io/problems/594-longest-harmonious-subsequence/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
@@ -272,6 +297,11 @@
     </url>
     <url>
          <loc>https://girishgr8.github.io/problems/700-search-in-a-binary-search-tree/</loc>
+         <lastmod>2022-04-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://girishgr8.github.io/problems/718-maximum-length-of-repeated-subarray/</loc>
          <lastmod>2022-04-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
