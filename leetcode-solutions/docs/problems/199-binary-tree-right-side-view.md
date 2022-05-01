@@ -2,13 +2,13 @@
 tags:
     - Tree
     - Depth-First Search
-    - Depth-First Search
+    - Breadth-First Search
     - Binary Tree
 ---
 
 **Leetcode Problem Link :**
 
-[hhttps://leetcode.com/problems/binary-tree-right-side-view/](hhttps://leetcode.com/problems/binary-tree-right-side-view/){:target="\_blank"}
+[https://leetcode.com/problems/binary-tree-right-side-view/](https://leetcode.com/problems/binary-tree-right-side-view/){:target="\_blank"}
 
 **Approach : DFS :smile:**
 

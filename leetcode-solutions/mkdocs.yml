@@ -23,8 +23,10 @@ nav:
           - "35. Search Insert Position": problems/35-search-insert-position.md
           - "40. Combination Sum II": problems/40-combination-sum-ii.md
           - "42. Trapping Rain Water": problems/42-trapping-rain-water.md
+          - "45. Jump Game II": problems/45-jump-game-ii.md
           - "46. Permutations": problems/46-permutations.md
           - "51. N-Queens": problems/51-n-queens.md
+          - "55. Jump Game": problems/55-jump-game.md
           - "56. Merge Intervals": problems/56-merge-intervals.md
           - "62. Unique Paths": problems/62-unique-paths.md
           - "63. Unique Paths II": problems/63-unique-paths-ii.md
@@ -51,6 +53,7 @@ nav:
           - "392. Is Subsequence": problems/392-is-subsequence.md
           - "516. Longest Palindromic Subsequence": problems/516-longest-palindromic-subsequence.md
           - "513. Find Bottom Left Tree Value": problems/513-find-bottom-left-tree-value.md
+          - "523. Continuous Subarray Sum": problems/523-continuous-subarray-sum.md
           - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
           - "566. Reshape the Matrix": problems/566-reshape-the-matrix.md
           - "594. Longest Harmonious Subsequence": problems/594-longest-harmonious-subsequence.md
@@ -62,6 +65,7 @@ nav:
           - "718. Maximum Length of Repeated Subarray": problems/718-maximum-length-of-repeated-subarray.md
           - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
+          - "844. Backspace String Compare": problems/844-backspace-string-compare.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
           - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
           - "931. Minimum Falling Path Sum": problems/931-minimum-falling-path-sum.md
@@ -70,6 +74,7 @@ nav:
           - "1143. Longest Common Subsequence": problems/1143-longest-common-subsequence.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
           - "1289. Minimum Falling Path Sum II": problems/1289-minimum-falling-path-sum-ii.md
+          - "1306. Jump Game III": problems/1306-jump-game-iii.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
@@ -80,6 +85,7 @@ nav:
           - "2053. Kth Distinct String in an Array": problems/2053-kth-distinct-string-in-an-array.md
           - "2085. Count Common Words With One Occurrence": problems/2085-count-common-words-with-one-occurrence.md
           - "2095. Delete the Middle Node of a Linked List": problems/2095-delete-the-middle-node-of-a-linked-list.md
+          - "2121. Intervals Between Identical Elements": problems/2121-intervals-between-identical-elements.md
           - "2130. Maximum Twin Sum of a Linked List": problems/2130-maximum-twin-sum-of-a-linked-list.md
           - "2224. Minimum Number of Operations to Convert Time": problems/2224-minimum-number-of-operations-to-convert-time.md
 
