@@ -77,6 +77,8 @@ nav:
           - "1306. Jump Game III": problems/1306-jump-game-iii.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
+          - "1679. Max Number of K-Sum Pairs": problems/1679-max-number-of-k-sum-pairs.md
+          - "1711. Count Good Meals": problems/1711-count-good-meals.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
           - "1773. Count Items Matching a Rule": problems/1773-count-items-matching-a-rule.md
           - "1880. Check if Word Equals Summation of Two Words": problems/1880-check-if-word-equals-summation-of-two-words.md
