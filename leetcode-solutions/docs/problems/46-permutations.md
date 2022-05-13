@@ -34,6 +34,6 @@ tags:
     }
     ```
 
--   [x] **Time Complexity :** O(2^n^\*k) where k = average length of combinations
+-   [x] **Time Complexity :** O(n!) where n = length of array `nums`
 
--   [x] **Space Complexity :**
+-   [x] **Space Complexity :** O(n) where n = length of array `nums`

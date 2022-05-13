@@ -1,7 +1,7 @@
 <h1 align="center">Solutions to <b>Leetcode</b> problems</h1>
 <p align="center">
-  <a href="https://girishgr8.github.io/Leetcode/">
-    <img src="https://imgur.com/a/xRMB2fG" title="Leetcode" alt="Leetcode">
+  <a href="https://github.com/girishgr8/Leetcode-Solution/">
+    <img src="images/leetcode.png" title="Leetcode" alt="Leetcode">
   </a>
 </p>
 

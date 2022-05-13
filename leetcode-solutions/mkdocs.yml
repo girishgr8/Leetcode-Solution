@@ -18,6 +18,7 @@ nav:
           - "1. Two Sum": problems/1-two-sum.md
           - "2. Add Two Numbers": problems/2-add-two-numbers.md
           - "11. Container With Most Water": problems/11-container-with-most-water.md
+          - "17. Letter Combinations of a Phone Number": problems/17-letter-combinations-of-a-phone-number.md
           - "21. Merge Two Sorted Lists": problems/21-merge-two-sorted-lists.md
           - "34. Find First and Last Position of Element in Sorted Array": problems/34-find-first-and-last-position-of-element-in-sorted-array.md
           - "35. Search Insert Position": problems/35-search-insert-position.md
@@ -25,6 +26,7 @@ nav:
           - "42. Trapping Rain Water": problems/42-trapping-rain-water.md
           - "45. Jump Game II": problems/45-jump-game-ii.md
           - "46. Permutations": problems/46-permutations.md
+          - "47. Permutations II": problems/47-permutations-ii.md
           - "51. N-Queens": problems/51-n-queens.md
           - "55. Jump Game": problems/55-jump-game.md
           - "56. Merge Intervals": problems/56-merge-intervals.md
@@ -37,6 +39,7 @@ nav:
           - "89. Gray Code": problems/89-gray-code.md
           - "100. Same Tree": problems/100-same-tree.md
           - "120. Triangle": problems/120-triangle.md
+          - "121. Best Time to Buy and Sell Stock": problems/121-best-time-to-buy-and-sell-stock.md
           - "153. Find Minimum in Rotated Sorted Array": problems/153-find-minimum-in-rotated-sorted-array.md
           - "199. Binary Tree Right Side View": problems/199-binary-tree-right-side-view.md
           - "200. Number of Islands": problems/200-number-of-islands.md
@@ -66,8 +69,10 @@ nav:
           - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "844. Backspace String Compare": problems/844-backspace-string-compare.md
+          - "886. Possible Bipartition": problems/886-possible-bipartition.md
           - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
           - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
+          - "915. Partition Array into Disjoint Intervals": problems/915-partition-array-into-disjoint-intervals.md
           - "931. Minimum Falling Path Sum": problems/931-minimum-falling-path-sum.md
           - "967. Numbers With Same Consecutive Differences": problems/967-numbers-with-same-consecutive-differences.md
           - "1092. Shortest Common Supersequence": problems/1092-shortest-common-supersequence.md
@@ -77,18 +82,22 @@ nav:
           - "1306. Jump Game III": problems/1306-jump-game-iii.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
+          - "1641. Count Sorted Vowel Strings": problems/1641-count-sorted-vowel-strings.md
           - "1679. Max Number of K-Sum Pairs": problems/1679-max-number-of-k-sum-pairs.md
           - "1711. Count Good Meals": problems/1711-count-good-meals.md
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
           - "1773. Count Items Matching a Rule": problems/1773-count-items-matching-a-rule.md
           - "1880. Check if Word Equals Summation of Two Words": problems/1880-check-if-word-equals-summation-of-two-words.md
           - "1980. Find Unique Binary String": problems/1980-find-unique-binary-string.md
+          - "2012. Sum of Beauty in the Array": problems/2012-sum-of-beauty-in-the-array.md
+          - "2016. Maximum Difference Between Increasing Elements": problems/2016-maximum-difference-between-increasing-elements.md
           - "2022. Convert 1D Array Into 2D Array": problems/2022-convert-1d-array-into-2d-array.md
           - "2053. Kth Distinct String in an Array": problems/2053-kth-distinct-string-in-an-array.md
           - "2085. Count Common Words With One Occurrence": problems/2085-count-common-words-with-one-occurrence.md
           - "2095. Delete the Middle Node of a Linked List": problems/2095-delete-the-middle-node-of-a-linked-list.md
           - "2121. Intervals Between Identical Elements": problems/2121-intervals-between-identical-elements.md
           - "2130. Maximum Twin Sum of a Linked List": problems/2130-maximum-twin-sum-of-a-linked-list.md
+          - "2133. Check if Every Row and Column Contains All Numbers": problems/2133-check-if-every-row-and-column-contains-all-numbers.md
           - "2224. Minimum Number of Operations to Convert Time": problems/2224-minimum-number-of-operations-to-convert-time.md
 
 # https://squidfunk.github.io/mkdocs-material/
