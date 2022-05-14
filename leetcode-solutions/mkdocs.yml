@@ -58,6 +58,7 @@ nav:
           - "513. Find Bottom Left Tree Value": problems/513-find-bottom-left-tree-value.md
           - "523. Continuous Subarray Sum": problems/523-continuous-subarray-sum.md
           - "537. Complex Number Multiplication": problems/537-complex-number-multiplication.md
+          - "547. Number of Provinces": problems/547-number-of-provinces.md
           - "566. Reshape the Matrix": problems/566-reshape-the-matrix.md
           - "594. Longest Harmonious Subsequence": problems/594-longest-harmonious-subsequence.md
           - "609. Find Duplicate File in System": problems/609-find-duplicate-file-in-system.md
@@ -75,7 +76,10 @@ nav:
           - "915. Partition Array into Disjoint Intervals": problems/915-partition-array-into-disjoint-intervals.md
           - "931. Minimum Falling Path Sum": problems/931-minimum-falling-path-sum.md
           - "967. Numbers With Same Consecutive Differences": problems/967-numbers-with-same-consecutive-differences.md
+          - "994. Rotting Oranges": problems/994-rotting-oranges.md
+          - "1019. Next Greater Node In Linked List": problems/1019-next-greater-node-in-linked-list.md
           - "1092. Shortest Common Supersequence": problems/1092-shortest-common-supersequence.md
+          - "1161. Maximum Level Sum of a Binary Tree": problems/1161-maximum-level-sum-of-a-binary-tree.md
           - "1143. Longest Common Subsequence": problems/1143-longest-common-subsequence.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
           - "1289. Minimum Falling Path Sum II": problems/1289-minimum-falling-path-sum-ii.md
@@ -88,6 +92,7 @@ nav:
           - "1721. Swapping Nodes in a Linked List": problems/1721-swapping-nodes-in-a-linked-list.md
           - "1773. Count Items Matching a Rule": problems/1773-count-items-matching-a-rule.md
           - "1880. Check if Word Equals Summation of Two Words": problems/1880-check-if-word-equals-summation-of-two-words.md
+          - "1903. Largest Odd Number in String": problems/1903-largest-odd-number-in-string.md
           - "1980. Find Unique Binary String": problems/1980-find-unique-binary-string.md
           - "2012. Sum of Beauty in the Array": problems/2012-sum-of-beauty-in-the-array.md
           - "2016. Maximum Difference Between Increasing Elements": problems/2016-maximum-difference-between-increasing-elements.md
