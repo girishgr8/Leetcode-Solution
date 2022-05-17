@@ -1153,8 +1153,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../886-possible-bipartition/" class="md-nav__link">
-        886. Possible Bipartition
+      <a href="../876-middle-of-the-linked-list/" class="md-nav__link">
+        876. Middle of the Linked List
       </a>
     </li>
   
@@ -1167,8 +1167,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../896-middle-of-the-linked-list/" class="md-nav__link">
-        876. Middle of the Linked List
+      <a href="../684-redundant-connection/" class="md-nav__link">
+        684. Redundant Connection
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../886-possible-bipartition/" class="md-nav__link">
+        886. Possible Bipartition
       </a>
     </li>
   
@@ -1343,6 +1357,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../1302-deepest-leaves-sum/" class="md-nav__link">
+        1302. Deepest Leaves Sum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../1306-jump-game-iii/" class="md-nav__link">
         1306. Jump Game III
       </a>
@@ -1371,8 +1399,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/" class="md-nav__link">
+        1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../1539-kth-missing-positive-number/" class="md-nav__link">
         1539. Kth Missing Positive Number
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1609-even-odd-tree/" class="md-nav__link">
+        1609. Even Odd Tree
       </a>
     </li>
   
@@ -1631,6 +1687,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2236-root-equals-sum-of-children/" class="md-nav__link">
+        2236. Root Equals Sum of Children
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -1693,6 +1763,9 @@
 <p><strong>Leetcode Problem Link :</strong></p>
 <p><a href="https://leetcode.com/problems/increasing-order-search-tree/" target="_blank">https://leetcode.com/problems/increasing-order-search-tree/</a></p>
 <p><strong>Approach : Recursion <img alt="😄" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f604.svg" title=":smile:" /></strong></p>
+<ul>
+<li>Perform simple inorder traversal and take help of dummy node</li>
+</ul>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Java</label><label for="__tabbed_1_2">C++</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
@@ -1706,30 +1779,24 @@
 <a id="__codelineno-0-8" name="__codelineno-0-8"></a><a href="#__codelineno-0-8"><span class="linenos" data-linenos=" 8 "></span></a><span class="cm">* }</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9"></a><a href="#__codelineno-0-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="cm">*/</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10"></a><a href="#__codelineno-0-10"><span class="linenos" data-linenos="10 "></span></a><span class="kd">class</span> <span class="nc">Solution</span> <span class="p">{</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><a href="#__codelineno-0-11"><span class="linenos" data-linenos="11 "></span></a>    <span class="n">TreeNode</span> <span class="n">head</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><a href="#__codelineno-0-11"><span class="linenos" data-linenos="11 "></span></a>    <span class="n">TreeNode</span> <span class="n">dummy</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TreeNode</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12"></a><a href="#__codelineno-0-12"><span class="linenos" data-linenos="12 "></span></a>    <span class="kd">public</span> <span class="n">TreeNode</span> <span class="nf">increasingBST</span><span class="p">(</span><span class="n">TreeNode</span> <span class="n">root</span><span class="p">)</span> <span class="p">{</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><a href="#__codelineno-0-13"><span class="linenos" data-linenos="13 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">);</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a><a href="#__codelineno-0-14"><span class="linenos" data-linenos="14 "></span></a>        <span class="k">return</span> <span class="n">head</span><span class="p">;</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15"></a><a href="#__codelineno-0-15"><span class="linenos" data-linenos="15 "></span></a>    <span class="p">}</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16"></a><a href="#__codelineno-0-16"><span class="linenos" data-linenos="16 "></span></a>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">inorder</span><span class="p">(</span><span class="n">TreeNode</span> <span class="n">root</span><span class="p">){</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17"></a><a href="#__codelineno-0-17"><span class="linenos" data-linenos="17 "></span></a>        <span class="k">if</span><span class="p">(</span><span class="n">root</span><span class="o">==</span><span class="kc">null</span><span class="p">)</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18"></a><a href="#__codelineno-0-18"><span class="linenos" data-linenos="18 "></span></a>            <span class="k">return</span><span class="p">;</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19"></a><a href="#__codelineno-0-19"><span class="linenos" data-linenos="19 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">left</span><span class="p">);</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20"></a><a href="#__codelineno-0-20"><span class="linenos" data-linenos="20 "></span></a>        <span class="k">if</span><span class="p">(</span><span class="n">head</span><span class="o">==</span><span class="kc">null</span><span class="p">){</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21"></a><a href="#__codelineno-0-21"><span class="linenos" data-linenos="21 "></span></a>            <span class="n">head</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TreeNode</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">val</span><span class="p">);</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22"></a><a href="#__codelineno-0-22"><span class="linenos" data-linenos="22 "></span></a>            <span class="n">head</span><span class="p">.</span><span class="na">left</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span> <span class="n">head</span><span class="p">.</span><span class="na">right</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23"></a><a href="#__codelineno-0-23"><span class="linenos" data-linenos="23 "></span></a>        <span class="p">}</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24"></a><a href="#__codelineno-0-24"><span class="linenos" data-linenos="24 "></span></a>        <span class="k">else</span><span class="p">{</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25"></a><a href="#__codelineno-0-25"><span class="linenos" data-linenos="25 "></span></a>            <span class="n">TreeNode</span> <span class="n">ptr</span> <span class="o">=</span> <span class="n">head</span><span class="p">;</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26"></a><a href="#__codelineno-0-26"><span class="linenos" data-linenos="26 "></span></a>            <span class="k">while</span><span class="p">(</span><span class="n">ptr</span><span class="p">.</span><span class="na">right</span><span class="o">!=</span><span class="kc">null</span><span class="p">)</span>
-<a id="__codelineno-0-27" name="__codelineno-0-27"></a><a href="#__codelineno-0-27"><span class="linenos" data-linenos="27 "></span></a>                <span class="n">ptr</span> <span class="o">=</span> <span class="n">ptr</span><span class="p">.</span><span class="na">right</span><span class="p">;</span>
-<a id="__codelineno-0-28" name="__codelineno-0-28"></a><a href="#__codelineno-0-28"><span class="linenos" data-linenos="28 "></span></a>            <span class="n">TreeNode</span> <span class="n">node</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TreeNode</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">val</span><span class="p">);</span>
-<a id="__codelineno-0-29" name="__codelineno-0-29"></a><a href="#__codelineno-0-29"><span class="linenos" data-linenos="29 "></span></a>            <span class="n">node</span><span class="p">.</span><span class="na">left</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span> <span class="n">node</span><span class="p">.</span><span class="na">right</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
-<a id="__codelineno-0-30" name="__codelineno-0-30"></a><a href="#__codelineno-0-30"><span class="linenos" data-linenos="30 "></span></a>            <span class="n">ptr</span><span class="p">.</span><span class="na">right</span> <span class="o">=</span> <span class="n">node</span><span class="p">;</span>
-<a id="__codelineno-0-31" name="__codelineno-0-31"></a><a href="#__codelineno-0-31"><span class="linenos" data-linenos="31 "></span></a>        <span class="p">}</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32"></a><a href="#__codelineno-0-32"><span class="linenos" data-linenos="32 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">right</span><span class="p">);</span>
-<a id="__codelineno-0-33" name="__codelineno-0-33"></a><a href="#__codelineno-0-33"><span class="linenos" data-linenos="33 "></span></a>    <span class="p">}</span>
-<a id="__codelineno-0-34" name="__codelineno-0-34"></a><a href="#__codelineno-0-34"><span class="linenos" data-linenos="34 "></span></a><span class="p">}</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><a href="#__codelineno-0-13"><span class="linenos" data-linenos="13 "></span></a>        <span class="n">TreeNode</span> <span class="n">head</span> <span class="o">=</span> <span class="n">dummy</span><span class="p">;</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a><a href="#__codelineno-0-14"><span class="linenos" data-linenos="14 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">);</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a><a href="#__codelineno-0-15"><span class="linenos" data-linenos="15 "></span></a>        <span class="k">return</span> <span class="n">head</span><span class="p">.</span><span class="na">right</span><span class="p">;</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a><a href="#__codelineno-0-16"><span class="linenos" data-linenos="16 "></span></a>    <span class="p">}</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a><a href="#__codelineno-0-17"><span class="linenos" data-linenos="17 "></span></a>    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">inorder</span><span class="p">(</span><span class="n">TreeNode</span> <span class="n">root</span><span class="p">){</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18"></a><a href="#__codelineno-0-18"><span class="linenos" data-linenos="18 "></span></a>        <span class="k">if</span><span class="p">(</span><span class="n">root</span> <span class="o">==</span> <span class="kc">null</span><span class="p">)</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19"></a><a href="#__codelineno-0-19"><span class="linenos" data-linenos="19 "></span></a>            <span class="k">return</span><span class="p">;</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20"></a><a href="#__codelineno-0-20"><span class="linenos" data-linenos="20 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">left</span><span class="p">);</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21"></a><a href="#__codelineno-0-21"><span class="linenos" data-linenos="21 "></span></a>
+<a id="__codelineno-0-22" name="__codelineno-0-22"></a><a href="#__codelineno-0-22"><span class="linenos" data-linenos="22 "></span></a>        <span class="n">root</span><span class="p">.</span><span class="na">left</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23"></a><a href="#__codelineno-0-23"><span class="linenos" data-linenos="23 "></span></a>        <span class="n">dummy</span><span class="p">.</span><span class="na">right</span> <span class="o">=</span> <span class="n">root</span><span class="p">;</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24"></a><a href="#__codelineno-0-24"><span class="linenos" data-linenos="24 "></span></a>        <span class="n">dummy</span> <span class="o">=</span> <span class="n">root</span><span class="p">;</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25"></a><a href="#__codelineno-0-25"><span class="linenos" data-linenos="25 "></span></a>
+<a id="__codelineno-0-26" name="__codelineno-0-26"></a><a href="#__codelineno-0-26"><span class="linenos" data-linenos="26 "></span></a>        <span class="n">inorder</span><span class="p">(</span><span class="n">root</span><span class="p">.</span><span class="na">right</span><span class="p">);</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27"></a><a href="#__codelineno-0-27"><span class="linenos" data-linenos="27 "></span></a>    <span class="p">}</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28"></a><a href="#__codelineno-0-28"><span class="linenos" data-linenos="28 "></span></a><span class="p">}</span>
 </code></pre></div>
 </div>
 <div class="tabbed-block">
@@ -1740,10 +1807,10 @@
 </div>
 <ul class="task-list">
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Time Complexity :</strong></p>
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Time Complexity :</strong> O(n) where n = number of nodes in the tree</p>
 </li>
 <li class="task-list-item">
-<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Space Complexity :</strong></p>
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong>Space Complexity :</strong> O(1)</p>
 </li>
 </ul>
 
@@ -1759,7 +1826,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../896-middle-of-the-linked-list/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 876. Middle of the Linked List" rel="prev">
+        <a href="../886-possible-bipartition/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 886. Possible Bipartition" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1768,7 +1835,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              876. Middle of the Linked List
+              886. Possible Bipartition
             </div>
           </div>
         </a>
