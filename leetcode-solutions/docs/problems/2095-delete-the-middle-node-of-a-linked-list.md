@@ -1,7 +1,7 @@
 ---
 tags:
     - Linked List
-    - Two pointers
+    - Two Pointers
 ---
 
 **Leetcode Problem Link :**

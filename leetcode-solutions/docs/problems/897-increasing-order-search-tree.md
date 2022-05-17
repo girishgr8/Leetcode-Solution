@@ -13,6 +13,8 @@ tags:
 
 **Approach : Recursion :smile:**
 
+-   Perform simple inorder traversal and take help of dummy node
+
 === "Java"
 
     ```java
@@ -26,27 +28,21 @@ tags:
     * }
     */
     class Solution {
-        TreeNode head = null;
+        TreeNode dummy = new TreeNode(0);
         public TreeNode increasingBST(TreeNode root) {
+            TreeNode head = dummy;
             inorder(root);
-            return head;
+            return head.right;
         }
         public void inorder(TreeNode root){
-            if(root==null)
+            if(root == null)
                 return;
             inorder(root.left);
-            if(head==null){
-                head = new TreeNode(root.val);
-                head.left = null; head.right = null;
-            }
-            else{
-                TreeNode ptr = head;
-                while(ptr.right!=null)
-                    ptr = ptr.right;
-                TreeNode node = new TreeNode(root.val);
-                node.left = null; node.right = null;
-                ptr.right = node;
-            }
+
+            root.left = null;
+            dummy.right = root;
+            dummy = root;
+
             inorder(root.right);
         }
     }
@@ -58,6 +54,6 @@ tags:
 
     ```
 
--   [x] **Time Complexity :**
+-   [x] **Time Complexity :** O(n) where n = number of nodes in the tree
 
--   [x] **Space Complexity :**
+-   [x] **Space Complexity :** O(1)

@@ -70,8 +70,9 @@ nav:
           - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "844. Backspace String Compare": problems/844-backspace-string-compare.md
+          - "876. Middle of the Linked List": problems/876-middle-of-the-linked-list.md
+          - "684. Redundant Connection": problems/684-redundant-connection.md
           - "886. Possible Bipartition": problems/886-possible-bipartition.md
-          - "876. Middle of the Linked List": problems/896-middle-of-the-linked-list.md
           - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
           - "915. Partition Array into Disjoint Intervals": problems/915-partition-array-into-disjoint-intervals.md
           - "931. Minimum Falling Path Sum": problems/931-minimum-falling-path-sum.md
@@ -83,9 +84,12 @@ nav:
           - "1143. Longest Common Subsequence": problems/1143-longest-common-subsequence.md
           - "1222. Queens That Can Attack the King": problems/1222-queens-that-can-attack-the-king.md
           - "1289. Minimum Falling Path Sum II": problems/1289-minimum-falling-path-sum-ii.md
+          - "1302. Deepest Leaves Sum": problems/1302-deepest-leaves-sum.md
           - "1306. Jump Game III": problems/1306-jump-game-iii.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
+          - "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree": problems/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
+          - "1609. Even Odd Tree": problems/1609-even-odd-tree.md
           - "1641. Count Sorted Vowel Strings": problems/1641-count-sorted-vowel-strings.md
           - "1679. Max Number of K-Sum Pairs": problems/1679-max-number-of-k-sum-pairs.md
           - "1711. Count Good Meals": problems/1711-count-good-meals.md
@@ -104,6 +108,7 @@ nav:
           - "2130. Maximum Twin Sum of a Linked List": problems/2130-maximum-twin-sum-of-a-linked-list.md
           - "2133. Check if Every Row and Column Contains All Numbers": problems/2133-check-if-every-row-and-column-contains-all-numbers.md
           - "2224. Minimum Number of Operations to Convert Time": problems/2224-minimum-number-of-operations-to-convert-time.md
+          - "2236. Root Equals Sum of Children": problems/2236-root-equals-sum-of-children.md
 
 # https://squidfunk.github.io/mkdocs-material/
 

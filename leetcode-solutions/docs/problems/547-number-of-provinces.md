@@ -2,7 +2,7 @@
 tags:
     - Depth-First Search
     - Breadth-First Search
-    - Union-Find
+    - Union Find
     - Graph
 ---
 
@@ -10,7 +10,7 @@ tags:
 
 [https://leetcode.com/problems/number-of-provinces/](https://leetcode.com/problems/number-of-provinces/){:target="\_blank"}
 
--   This problem basically asks us to find *number of connected components*.
+-   This problem basically asks us to find _number of connected components_.
 -   To find number of connected components, we can either use
     -   Depth-First Search + Stack
     -   Breadth-First Search + Queue

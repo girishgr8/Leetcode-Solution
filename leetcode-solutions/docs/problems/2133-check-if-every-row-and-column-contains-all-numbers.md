@@ -1,7 +1,7 @@
 ---
 tags:
     - Array
-    - HashTable
+    - Hash Table
     - Matrix
 ---
 

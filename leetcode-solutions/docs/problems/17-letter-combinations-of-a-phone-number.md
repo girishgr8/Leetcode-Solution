@@ -1,6 +1,6 @@
 ---
 tags:
-    - HashTable
+    - Hash Table
     - String
     - Backtracking
 ---
