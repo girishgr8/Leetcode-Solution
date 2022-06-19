@@ -1,8 +1,8 @@
 ---
 tags:
     - Array
-    - Dynamic Programming
-    - Breadth-First Search
+    - Two Pointers
+    - Sorting
 ---
 
 **Leetcode Problem Link :**
@@ -38,6 +38,8 @@ tags:
 -   [x] **Time Complexity :** O(n) where n = size of array
 
 -   [x] **Space Complexity :** O(1)
+
+<hr>
 
 **Approach 2 : Dutch National Flag Sort(DNF Sort) approach :smile:**
 

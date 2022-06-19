@@ -49,6 +49,7 @@ nav:
           - "230. Kth Smallest Element in a BST": problems/230-kth-smallest-element-in-a-bst.md
           - "268. Missing Number": problems/268-missing-number.md
           - "300. Longest Increasing Subsequence": problems/300-longest-increasing-subsequence.md
+          - "387. First Unique Character in a String": problems/387-first-unique-character-in-a-string.md
           - "322. Coin Change": problems/322-coin-change.md
           - "344. Reverse String": problems/344-reverse-string.md
           - "347. Top K Frequent Elements": problems/347-top-k-frequent-elements.md
@@ -63,19 +64,21 @@ nav:
           - "594. Longest Harmonious Subsequence": problems/594-longest-harmonious-subsequence.md
           - "609. Find Duplicate File in System": problems/609-find-duplicate-file-in-system.md
           - "682. Baseball Game": problems/682-baseball-game.md
+          - "684. Redundant Connection": problems/684-redundant-connection.md
           - "692. Top K Frequent Words": problems/692-top-k-frequent-words.md
           - "695. Max Area of Island": problems/695-max-area-of-island.md
           - "700. Search in a Binary Search Tree": problems/700-search-in-a-binary-search-tree.md
           - "718. Maximum Length of Repeated Subarray": problems/718-maximum-length-of-repeated-subarray.md
+          - "744. Find Smallest Letter Greater Than Target": problems/744-find-smallest-letter-greater-than-target.md
           - "785. Is Graph Bipartite?": problems/785-is-graph-bipartite.md
           - "797. All Paths From Source to Target": problems/797-all-paths-from-source-to-target.md
           - "844. Backspace String Compare": problems/844-backspace-string-compare.md
           - "876. Middle of the Linked List": problems/876-middle-of-the-linked-list.md
-          - "684. Redundant Connection": problems/684-redundant-connection.md
           - "886. Possible Bipartition": problems/886-possible-bipartition.md
           - "897. Increasing Order Search Tree": problems/897-increasing-order-search-tree.md
           - "915. Partition Array into Disjoint Intervals": problems/915-partition-array-into-disjoint-intervals.md
           - "931. Minimum Falling Path Sum": problems/931-minimum-falling-path-sum.md
+          - "958. Check Completeness of a Binary Tree": problems/958-check-completeness-of-a-binary-tree.md
           - "967. Numbers With Same Consecutive Differences": problems/967-numbers-with-same-consecutive-differences.md
           - "994. Rotting Oranges": problems/994-rotting-oranges.md
           - "1019. Next Greater Node In Linked List": problems/1019-next-greater-node-in-linked-list.md
@@ -86,6 +89,7 @@ nav:
           - "1289. Minimum Falling Path Sum II": problems/1289-minimum-falling-path-sum-ii.md
           - "1302. Deepest Leaves Sum": problems/1302-deepest-leaves-sum.md
           - "1306. Jump Game III": problems/1306-jump-game-iii.md
+          - "1315. Sum of Nodes with Even-Valued Grandparent": problems/1315-sum-of-nodes-with-even-valued-grandparent.md
           - "1351. Count Negative Numbers in a Sorted Matrix": problems/1351-count-negative-numbers-in-a-sorted-matrix.md
           - "1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree": problems/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md
           - "1539. Kth Missing Positive Number": problems/1539-kth-missing-positive-number.md
@@ -107,6 +111,7 @@ nav:
           - "2121. Intervals Between Identical Elements": problems/2121-intervals-between-identical-elements.md
           - "2130. Maximum Twin Sum of a Linked List": problems/2130-maximum-twin-sum-of-a-linked-list.md
           - "2133. Check if Every Row and Column Contains All Numbers": problems/2133-check-if-every-row-and-column-contains-all-numbers.md
+          - "2148. Count Elements With Strictly Smaller and Greater Elements": problems/2148-count-elements-with-strictly-smaller-and-greater-elements.md
           - "2224. Minimum Number of Operations to Convert Time": problems/2224-minimum-number-of-operations-to-convert-time.md
           - "2236. Root Equals Sum of Children": problems/2236-root-equals-sum-of-children.md
 
